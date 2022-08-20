@@ -29,3 +29,8 @@ Dazu verwenden wir folgende Syntax:
 Konktet ist `element` die Person nacheinander im Array.
 
 Sie soll beispielsweise für John mit der Begrüßung `Willkommen! Wie geht es Ihnen, John?` begrüßt werden.
+
+## Bonus
+Findest du einen Weg, die Funktion aus der `map()` auszulagern?
+
+D.h. die Funktion wird in `map()` nur noch aufgerufen, aber dort nicht definiert.
