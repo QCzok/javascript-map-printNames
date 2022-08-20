@@ -1,14 +1,31 @@
 # javascript-map-printNames
 
+# Überblick
+Zum Einstieg wollen wir ein einfaches Beispiel mit `map()` machen.
+
+Aus einer Liste mit Personen soll für jede Person eine Begrüßung in der Konsole ausgegeben werden.
+
 ## Aufgabenstellung - Teil 1
-Schreibe ein Array mit den Namen: John, Chuck, Henry, Oscar, Ryan, Bob, Pete.
+Zunächst brauchen wir eine Liste mit Personen. Dazu verwenden wir ein Array.
+
+Deklariere ein Array mit den Namen: John, Chuck, Henry, Oscar, Ryan, Bob, Pete.
 
 ## Aufgabenstellung - Teil 2
-Schreibe eine Funktion mit dem Parameter firstName.
+Nun müssen wir die Personen aus dem Array einzeln begrüßen.
 
-In der Funktion soll der Parameter in der Konsole ausgeschrieben werden.
+Wende `map()` auf das Array an. 
 
 ## Aufgabenstellung - Teil 3
-Wende map() auf das Array an. 
+`map()` muss jetzt noch eine Aufgabe erledigen.
 
-map() soll die Funktion als Argument übergeben werden.
+Dazu verwenden wir folgende Syntax:
+
+```
+(element) => {
+    // mache etwas mit element
+}
+```
+
+Konktet ist `element` die Person nacheinander im Array.
+
+Sie soll beispielsweise für John mit der Begrüßung `Willkommen! Wie geht es Ihnen, John?` begrüßt werden.
